@@ -95,6 +95,7 @@ export class MyElement extends LitElement {
 	//Pueden aplicarse divesos estilos css
 	static get styles() {
 		return [
+		//Estilos genéricos
 			css`
 		h2{
 			color : red;
@@ -110,6 +111,7 @@ export class MyElement extends LitElement {
 			border: 1px solid yellow
 		}
 		`,
+		//Estilos de clases
 			css`
 		.contador{
 			font-size : 20px;
